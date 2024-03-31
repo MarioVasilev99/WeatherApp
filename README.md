@@ -6,14 +6,19 @@ This is a simple weather application that provides a five-day forecast for a use
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the repository
+
 2. Navigate to the project directory:
+
    cd weather-application
+
 3. Install dependencies:
+
    npm install
-4. Obtain an API key from OpenWeather and add it to your environment variables or configuration file.
-   Sample .env file:
-   VITE_WEATHER_API_URL = https://api.openweathermap.org/data/2.5
-   VITE_WEATHER_API_KEY = {apiKey}
-5. Start the development server:
+
+4. Obtain an API key from OpenWeather
+
+5. Create .env file in the project folder and enter your Open Weather API key(use the .env.example file as a reference)
+
+6. Start the app:
    npm run dev
