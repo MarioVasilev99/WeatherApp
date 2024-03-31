@@ -1,0 +1,29 @@
+.hourWeatherCardContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 140px;
+  height: 215px;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  .time {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .imageContainer {
+    border-radius: 1em;
+    background-color: #bdbdbd;
+  }
+
+  .temperature {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+}

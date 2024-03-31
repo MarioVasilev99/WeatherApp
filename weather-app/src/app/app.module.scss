@@ -1,0 +1,41 @@
+.appContainer {
+  max-width: 1080px;
+  margin: 20px auto;
+
+  .locationInfoContainer {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    margin-bottom: 50px;
+
+    .locationText {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  }
+
+  .unitsRadioButtonsContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    .radioButtonContainer {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      .radioButton {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .radioButtonLabel {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+  }
+}

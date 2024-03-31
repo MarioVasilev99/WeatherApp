@@ -1,0 +1,12 @@
+.homePage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .weatherCardsSection {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
