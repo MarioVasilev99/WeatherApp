@@ -22,3 +22,9 @@ This is a simple weather application that provides a five-day forecast for a use
 
 6. Start the app:
    npm run dev
+
+## Running Tests
+
+To run tests, execute the following command in your terminal:
+
+npm run test
